@@ -32,7 +32,7 @@ export default function HeroSection() {
                     </h1>
 
                     <p className='heroSection-description'>
-                        I&apos;m a full stack developer with 4 years of experience in web development.
+                        I&apos;m a full stack developer with {new Date().getFullYear() - 2020} years of experience in web development.
                         I&apos;m passionate about creating beautiful and functional websites.
                     </p>
                 </div>
